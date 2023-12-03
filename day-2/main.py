@@ -3,7 +3,6 @@
 #This is semi-intentionally convoluted. It seemed funny at the time,
 #might come back and try to make it better.
 
-#input = open("input", "r")
 game_count = 1
 total = 0
 
@@ -28,12 +27,3 @@ for line in open("input", "r"):
     game_count += 1
 
 print(total)
-
-#for line in input:
-#    games = line.split(":")[1].split(";")
-#
-#    for game in games:
-#        for pull in game.split(","):
-#            print(pull)
-#
-#    game_count += 1
